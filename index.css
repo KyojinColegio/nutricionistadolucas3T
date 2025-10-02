@@ -128,3 +128,8 @@ button[disabled=disabled], button:disabled {
 .adicionar-paciente{
     margin-top: 30px;
 }
+
+.campo-invalido{
+	border: 3px solid red;
+/* background-color: coral; */
+}
