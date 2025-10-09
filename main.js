@@ -81,6 +81,7 @@ nomeTd.textContent = nome;
 pesoTd.textContent = peso;
 alturaTd.textContent = altura;
 gorduraTd.textContent = gordura;
+imcTd.textContent = calcularIMC(peso, altura);
 
     //adicionar as tags na tela do usuário
     pacienteTr.appendChild(nomeTd);
@@ -91,5 +92,4 @@ gorduraTd.textContent = gordura;
 
     var tabela = document.querySelector("#tabela-pacientes")
     tabela.appendChild(pacienteTr)
-
 });
